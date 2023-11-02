@@ -17,7 +17,7 @@ COPY . .
 # RUN npm run build
 
 # Expón el puerto en el que se ejecutará tu aplicación Vite.js:
-EXPOSE 3030
+EXPOSE 3000
 
 # Define el comando para iniciar la aplicación en modo de desarrollo:
 CMD [ "npm", "start" ]
