@@ -20,7 +20,7 @@ COPY . .
 EXPOSE 3030
 
 # Define el comando para iniciar la aplicación en modo de desarrollo:
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "start" ]
 
 # Ejecuta el siguiente comando para construir la imagen Docker:
 # docker build -t msilva83/frontend .
